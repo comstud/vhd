@@ -1,0 +1,23 @@
+This repository contains source code that implements the VHD
+(Virtual Hard Drive) file format.  Contained within is a C library and
+associated tools.
+
+This code originated from the Xen hypervisor source code tree, found under the
+tools/blktap2/vhd directory.
+
+According to the COPYING file found in the root of the Xen source code tree
+(which I've duplicated in this repo), most or all of the code contained here
+is licensed under GNU GPLv2.  Please read 'COPYING' for more detail.
+
+===
+
+libuuid and associated header files are required for building.  If building on
+Debian or Ubuntu, apt-get install uuid-dev.
+
+Code can be built by:
+
+1) sh autogen.sh
+2) ./configure
+3) make
+
+To install the library, headers, and tools, 'make install'.

@@ -1,0 +1,17 @@
+.libs
+.deps
+*.o
+*.la
+*.lo
+config
+config.log
+config.status
+configure
+aclocal.m4
+autom4te.cache
+Makefile
+Makefile.in
+libtool
+m4
+vhd-util
+vhd-update
